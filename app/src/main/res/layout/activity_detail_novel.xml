@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailNovelActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-38dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"
+        android:clickable="true"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue"
+            android:text="Detail Favorit"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/menu_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/black"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="214dp"
+                android:src="@drawable/menanti" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="dp"
+        tools:layout_editor_absoluteY="356dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text=" Menanti Hari Esok"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="19dp"
+        android:background="#00ff00"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="462dp"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="20dp"
+        android:background="#00ff00"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="442dp"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="17dp"
+        android:background="#00ff00"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="425dp"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="17dp"
+        android:background="#00ff00"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="406dp"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Genre Novel"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="406dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Tahun Terbit"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="423dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="YYYY"
+        android:textAlignment="textEnd"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="423dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Penerbit"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="442dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="18dp"
+        android:layout_weight="1"
+        android:text="Nama Penerbit"
+        android:textAlignment="textEnd"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="442dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pengarang"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="461dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nama Pengarang"
+        android:textAlignment="textEnd"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="461dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="17dp"
+        android:layout_weight="1"
+        android:text="Genre Novel"
+        android:textAlignment="textEnd"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="406dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@color/Green"
+        android:text=" 651K dibaca | 65k disukai | 20k Ulasan "
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="496dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menanti hari sebuah filem drama Malaysia 1977. Filem ini diarahkan dan ditulis oleh Jins Shamsuddin serta diterbitkan dalam bentuk filem warna "
+        android:textColor="@color/black"
+        android:background="@color/Green"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="536dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,11 +12,11 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:orientation="vertical"
-            android:paddingLeft="20dp"
-            android:paddingTop="20dp"
-            android:paddingRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="horizontal"
@@ -26,11 +26,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
                     android:text="Nama"/>
-
                 <EditText
                     android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
             </LinearLayout>
 
             <LinearLayout
@@ -43,23 +42,21 @@
                     android:layout_weight="3"
                     android:layout_gravity="center"
                     android:text="Jenis Kelamin"/>
-
-                    <RadioGroup
-                        android:layout_width="match_parent"
-                        android:orientation="horizontal"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content">
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:text="Laki-Laki"
-                            android:layout_height="wrap_content"/>
-
-                        <RadioButton
-                            android:layout_width="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:text="Perepuan"
-                            android:layout_height="wrap_content"/>
-                    </RadioGroup>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:text="Laki-Laki"
+                        android:layout_height="wrap_content"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Perempuan"
+                        android:layout_height="wrap_content"/>
+                </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
@@ -73,10 +70,10 @@
                     android:text="Agama"/>
 
                 <Spinner
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:id="@+id/spn_agama"
                     android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:entries="@array/option_agama"/>
             </LinearLayout>
 
@@ -88,15 +85,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
-                    android:text="Country"/>
+                    android:text="Agama"/>
 
                 <Spinner
                     android:id="@+id/spn_country"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    />
+                    android:layout_height="wrap_content"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>

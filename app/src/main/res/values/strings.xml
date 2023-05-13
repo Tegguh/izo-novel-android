@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Izo Novel</string>
-    <string name="login_first_name">First Name</string>
+    <string name="login_first_name">Name</string>
     <string name="login_last_name">Last Name</string>
     <string name="login_email">Email</string>
     <string name="login_password">Password</string>

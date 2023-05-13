@@ -4,9 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="20dp"
     android:orientation="vertical"
-    android:background="@color/white"
     tools:context=".MainActivity">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -19,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="210dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/bg"/>
+                android:src="@drawable/th"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -33,7 +36,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:text="Main Menu"/>
 
                 <LinearLayout
@@ -62,14 +65,14 @@
                         android:layout_weight="2"
                         android:layout_height="wrap_content">
                         <TextView
-                            android:textColor="@color/text_header"
+                            android:textColor="@color/Red"
                             android:layout_width="match_parent"
-                            android:text="Daftr Novel"
+                            android:text="Daftar Novel"
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:layout_height="wrap_content"/>
                         <TextView
-                            android:textColor="@color/text_sub"
+                            android:textColor="@color/Green"
                             android:layout_width="match_parent"
                             android:text="see yor list of novel"
                             android:layout_height="wrap_content"/>
@@ -91,7 +94,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:background="@color/text_header"/>
+                            android:background="@color/Oren"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -99,14 +102,14 @@
                         android:layout_weight="2"
                         android:layout_height="wrap_content">
                         <TextView
-                            android:textColor="@color/text_header"
+                            android:textColor="@color/Red"
                             android:layout_width="match_parent"
                             android:text="Input Novel"
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:layout_height="wrap_content"/>
                         <TextView
-                            android:textColor="@color/text_sub"
+                            android:textColor="@color/Green"
                             android:layout_width="match_parent"
                             android:text="add a new novel"
                             android:layout_height="wrap_content"/>
@@ -131,7 +134,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
                             android:textColor="@color/black"
-                            android:background="@color/box_one"/>
+                            android:background="@color/Blue"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -139,14 +142,14 @@
                         android:layout_weight="2"
                         android:layout_height="wrap_content">
                         <TextView
-                            android:textColor="@color/text_header"
+                            android:textColor="@color/Red"
                             android:layout_width="match_parent"
                             android:text="Informasi pengguna"
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:layout_height="wrap_content"/>
                         <TextView
-                            android:textColor="@color/text_sub"
+                            android:textColor="@color/Green"
                             android:layout_width="match_parent"
                             android:text="change or modify account"
                             android:layout_height="wrap_content"/>
@@ -165,7 +168,7 @@
                     android:text="Novel  favorite"
                     android:textStyle="bold"
                     android:textSize="18dp"
-                    android:textColor="@color/text_header_two"/>
+                    android:textColor="@color/Red"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -175,7 +178,7 @@
                         android:layout_height="wrap_content"
                         android:text="Terbaik menurut pembaca"
                         android:layout_weight="1"
-                        android:textColor="@color/text_sub"/>
+                        android:textColor="@color/Bluen"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -183,96 +186,99 @@
                         android:layout_weight="3"
                         android:textStyle="bold"
                         android:textAlignment="center"
-                        android:textColor="@color/text_header_two"/>
+                        android:textColor="@color/Green"/>
                 </LinearLayout>
 
             </LinearLayout>
 
-<HorizontalScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
-    tools:ignore="UselessParent">
-            <LinearLayout
+            <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:paddingTop="20dp"
-                android:background="@color/box_one"
-                android:paddingBottom="20dp"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                tools:ignore="UselessParent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp"
+                    android:background="@color/Gren"
+                    android:paddingBottom="20dp"
+                    android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/purple_700"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/text_header"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/purple_200"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="120dp"
-                    android:layout_marginLeft="20dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/border"
-                    android:layout_height="200dp">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:background="@color/splash_bg"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="7dp"
-                        android:text="Judul novel ini judul"
-                        android:textColor="@color/text_sub"/>
-                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:layout_height="200dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/Blue"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="7dp"
+                            android:text="Judul novel ini judul"
+                            android:textColor="@color/Red"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:layout_height="200dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/Yellow"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="7dp"
+                            android:text="Judul novel ini judul"
+                            android:textColor="@color/Red"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:layout_height="200dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/purple_200"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="7dp"
+                            android:text="Judul novel ini judul"
+                            android:textColor="@color/Red"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/border"
+                        android:layout_height="200dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/Pink"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="7dp"
+                            android:text="Judul novel ini judul"
+                            android:textColor="@color/Red"/>
+                    </LinearLayout>
 
-            </LinearLayout>
-</HorizontalScrollView>
+                </LinearLayout>
+            </HorizontalScrollView>
         </LinearLayout>
     </ScrollView>
+
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>

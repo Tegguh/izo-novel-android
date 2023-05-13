@@ -3,32 +3,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SplashActivity">
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/Green"
+    tools:context=".SpalshActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:gravity="center"
-        android:background="@color/splash_bg"
-        android:layout_height="match_parent">
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" >
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:src="@drawable/logo"/>
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/awok"
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="36dp"
-            android:textColor="@color/white"
-            android:textAlignment="center"
-            android:textFontWeight="@integer/material_motion_duration_long_1"
-            android:text="IZO NOVEL" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:text="powere by @ izonovel.com" />
+            android:textSize="60dp"
+            android:textColor="@color/Red"
+            android:text="Izo Novel"
+            android:textAlignment="center" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/Red"
+            android:text="Created by Teguh Adi P."
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
 </androidx.appcompat.widget.LinearLayoutCompat>
